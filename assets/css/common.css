@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("//fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-myeongjo-bold {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nanum-myeongjo-extrabold {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --white-color: #FFF4EE;
+  --black-color: #1F1B1B;
+  --navy-color: #0A1F40;
+  --banner-font-size: 4.5rem;
+  --subtitle-font-size: 2.25rem;
+  --banner-letter-spacing: -0.02em;
+  --banner-line-height: 1;
+  --banner-font-weight: 600;
+  --title-font-family: "Nanum Myeongjo", serif;
+  --body-font-family: "Pretendard";
+  --nav-font-size: 1.125rem;
+  --booking-font-size: 1.25rem;
+  --subtitle-font-size: 1.75rem;
+  --sec-title-font-size: 2.25rem;
+  --sec-body-font-size: 1.125rem;
+  --lightest-font-weight: 300;
+  --light-font-weight: 300;
+  --regular-font-weight: 400;
+  --semibold-font-weight: 500;
+  --bold-font-weight: 600;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.l-none {
+  list-style: none;
+}
+
+.p-l-60 {
+  padding-left: 3.75rem;
+}
+
+.p-t-10 {
+  padding-top: 0.65rem;
+}
+
+.p-t-25 {
+  padding-top: 1.5625rem;
+}
+
+.p-t-30 {
+  padding-top: 1.875rem;
+}
+
+.p-t-40 {
+  padding-top: 2.5rem;
+}
+
+.p-l-20 {
+  padding-left: 20px;
+}
+
+.p-l-64 {
+  padding-left: 4rem;
+}
+
+.p-t-100 {
+  padding-top: 7.25rem;
+}
+
+.p-t-120 {
+  padding-top: 7.5rem;
+}
+
+.p-b-144 {
+  padding-bottom: 8rem;
+}/*# sourceMappingURL=common.css.map */
