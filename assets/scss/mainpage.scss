@@ -8,7 +8,7 @@
     z-index: 1000;
     width: 100%;
 
-    h5{
+    h5 {
         font-size: var(--nav-font-size);
         color: var(--white-color);
         font-family: var(--body-font-family);
@@ -18,11 +18,11 @@
     .nav-menu {
         list-style: none;
 
-        ul{
+        ul {
             justify-content: space-between;
         }
 
-        li{
+        li {
             padding-left: 3.8rem;
         }
 
@@ -35,20 +35,20 @@
             transition: color 0.3s ease;
 
             &:hover {
-                    color: #ccc;
+                color: #ccc;
             }
         }
     }
 
-    .right-header{
+    .right-header {
         padding-left: 13.5rem;
     }
 
-    form{
+    form {
         padding-right: 1rem;
     }
 
-    select{
+    select {
         background: none;
         border: none;
         outline: none;
@@ -58,11 +58,11 @@
         font-size: var(--nav-font-size);
     }
 
-    .row{
+    .row {
         padding-top: 1.875rem;
     }
 
-    i{
+    i {
         font-size: 2.5rem;
         color: var(--white-color);
         margin-top: -0.37rem;
@@ -70,22 +70,25 @@
     }
 }
 
-.banner-page{
-    .container-1{
+.banner-page {
+    .container-1 {
         width: 100%;
         height: 100vh;
     }
-    p{
+
+    p {
         margin: 0;
     }
-    span{
+
+    span {
         color: var(--white-color);
         font-size: var(--banner-font-size);
         line-height: (--banner-line-height);
         letter-spacing: var(--banner-letter-spacing);
         font-family: var(--title-font-family);
     }
-    img{
+
+    img {
         width: 100vw;
         height: 100vh;
     }
@@ -94,7 +97,7 @@
         width: 100%;
         height: 100vh;
     }
-      
+
     .swiper-slide {
         position: relative;
         text-align: center;
@@ -159,7 +162,8 @@
         z-index: 2;
     }
 
-    .swiper-button-next:after, .swiper-button-prev:after{
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
         color: #fff;
     }
 
@@ -167,25 +171,28 @@
         opacity: 0 !important;
         transition: opacity 1.5s ease-in-out !important;
     }
-      
+
     .swiper-slide-active,
-      .swiper-slide-duplicate-active {
+    .swiper-slide-duplicate-active {
         opacity: 1 !important;
     }
 
-    .swiper-button-prev{
+    .swiper-button-prev {
         left: 15%;
     }
 
-    .swiper-button-next{
+    .swiper-button-next {
         right: 16%;
     }
 
-    .swiper-pagination-bullet-active{
+    .swiper-pagination-bullet-active {
         background: #fff;
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
         bottom: var(--swiper-pagination-bottom, 30%);
     }
 
@@ -194,43 +201,43 @@
         height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
     }
 
-    .container.reservation-form{
+    .container.reservation-form {
         position: absolute;
         left: 15%;
         bottom: 0;
         z-index: 1000;
         width: 100%;
-        background: #F2ECE6; 
-        height: 131px; 
+        background: #F2ECE6;
+        height: 131px;
         opacity: 74.9%;
         justify-content: space-between;
     }
 
-    .reservationBox span{
+    .reservationBox span {
         font-size: var(--nav-font-size);
         color: #5E3C21;
         font-family: var(--body-font-family);
         font-weight: var(--regular-font-weight);
     }
 
-    .reservationBox p{
+    .reservationBox p {
         font-size: var(--booking-font-size);
         color: var(--black-color);
         font-family: var(--body-font-family);
         font-weight: var(--semibold-font-weight);
     }
 
-    .reservationCont{
+    .reservationCont {
         justify-content: space-between;
         gap: 4rem;
     }
 
-    .reservationSearch{
+    .reservationSearch {
         padding-top: 2rem;
         padding-left: 2.5rem;
     }
 
-    .reservationSearch button{
+    .reservationSearch button {
         border: none;
         background: #824D1E;
         opacity: 100%;
@@ -242,12 +249,15 @@
         padding: 1.25rem 2.5rem 1.25rem 2.5rem;
     }
 
-    .reservation-1, .reservation-2, .reservation-3, .reservation-4{
+    .reservation-1,
+    .reservation-2,
+    .reservation-3,
+    .reservation-4 {
         border-right: 1.5px solid #A79B9B;
         padding-right: 3.9rem;
     }
 
-    .text-center button{
+    .text-center button {
         background: none;
         border: none;
         outline: none;
@@ -256,11 +266,12 @@
         margin-top: -0.5rem;
     }
 
-    .text-center .minus{
+    .text-center .minus {
         position: relative;
         left: -30%;
     }
-    .text-center .plus{
+
+    .text-center .plus {
         position: relative;
         right: -30%;
         bottom: 100%;
@@ -268,12 +279,12 @@
 
 }
 
-.sec02-about-us{
+.sec02-about-us {
 
     width: 100%;
     height: 100vh;
 
-    h2{
+    h2 {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-weight: var(--bold-font-weight);
@@ -282,7 +293,7 @@
         margin-bottom: 0;
     }
 
-    h3{
+    h3 {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-size: var(--booking-font-size);
@@ -290,7 +301,7 @@
         letter-spacing: 0.05em;
     }
 
-    a{
+    a {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-size: var(--booking-font-size);
@@ -300,17 +311,17 @@
         text-decoration: none;
     }
 
-    .right-click{
+    .right-click {
         justify-content: end;
     }
 
-    .right-click img{
+    .right-click img {
         margin-bottom: 0.55rem;
         padding-left: 0.1rem;
     }
 
 
-    .left-background{
+    .left-background {
         background-color: #805725;
         position: absolute;
         width: 38.625rem;
@@ -320,10 +331,10 @@
         z-index: -10;
     }
 
-    .sec02-text-content{
+    .sec02-text-content {
         padding-top: 9rem;
 
-        h4{
+        h4 {
             font-family: var(--title-font-family);
             color: var(--navy-color);
             font-size: var(--subtitle-font-size);
@@ -332,7 +343,7 @@
             color: var(--navy-color);
         }
 
-        p{
+        p {
             padding-top: 2.1875rem;
             font-family: var(--body-font-family);
             color: var(--black-color);
@@ -342,11 +353,11 @@
             line-height: 180%;
         }
 
-        .button-view{
+        .button-view {
             padding-top: 1.625rem;
         }
 
-        .button-view button{
+        .button-view button {
             background: none;
             font-size: 1rem;
             padding: 0.7rem 1.25rem 0.7rem 1.25rem;
@@ -356,12 +367,12 @@
             border: 1px solid #824D1E;
         }
 
-        .animation-button{
+        .animation-button {
             padding-top: 1.625rem;
             padding-left: 0.7rem;
         }
 
-        .animation-button button{
+        .animation-button button {
             background: none;
             border: none;
             outline: none;
@@ -369,21 +380,23 @@
     }
 }
 
-.sec03-room{
+.sec03-room {
     width: 100%;
     height: 100vh;
     background: url('../images/room1.png');
 
-    ul{
+    ul {
         justify-content: space-between;
         align-items: self-start;
     }
 
     .nav-tabs {
         border-bottom: none;
-        li{
+
+        li {
             font-family: var(--title-font-family);
-            a{
+
+            a {
                 color: #C5C2C2;
                 letter-spacing: 0.05em;
                 font-weight: var(--bold-font-weight);
@@ -391,6 +404,7 @@
                 padding-top: 0.875rem;
             }
         }
+
         .nav-link.active {
             color: none;
             background-color: none;
@@ -398,39 +412,42 @@
         }
     }
 
-    .nav-item{
+    .nav-item {
         border-top: 3px solid #C5C2C2;
     }
 
-    .col-7{
+    .col-7 {
         color: var(--white-color);
         padding-top: 8.1rem;
 
-        h5{
+        h5 {
             font-size: 1.375rem;
             font-weight: var(--semibold-font-weight);
             padding-bottom: .875rem;
             letter-spacing: 0.03em;
         }
-        h2{
+
+        h2 {
             font-size: 3rem;
             font-weight: var(--bold-font-weight);
             letter-spacing: 0.03em;
             padding-bottom: 2.3125rem;
         }
-        p{
+
+        p {
             font-size: 1.5rem;
             font-weight: var(--regular-font-weight);
             padding-bottom: 0.875rem;
         }
-        li{
+
+        li {
             font-size: 1.25rem;
             font-weight: var(--light-font-weight);
         }
     }
 
-    .col-12{
-        button{
+    .col-12 {
+        button {
             background: none;
             font-family: var(--body-font-family);
             font-weight: var(--lightest-font-weight);
@@ -444,29 +461,29 @@
 
 }
 
-.sec04-dining-cafe{
+.sec04-dining-cafe {
     width: 100%;
     height: 100vh;
 
-    .sec04-image-content{
+    .sec04-image-content {
         justify-content: flex-end;
-        
+
     }
 
-    .right-click{
+    .right-click {
         justify-content: flex-end;
     }
 
-    h2{
+    h2 {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-weight: var(--bold-font-weight);
         font-size: var(--sec-title-font-size);
         letter-spacing: 0.05em;
-        margin-bottom: 0;  
+        margin-bottom: 0;
     }
 
-    a{
+    a {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-size: var(--booking-font-size);
@@ -476,7 +493,7 @@
         text-decoration: none;
     }
 
-    h4{
+    h4 {
         font-family: var(--title-font-family);
         color: var(--navy-color);
         font-size: var(--subtitle-font-size);
@@ -485,7 +502,7 @@
         color: var(--navy-color);
     }
 
-    p{
+    p {
         padding-top: 2.1875rem;
         font-family: var(--body-font-family);
         color: var(--black-color);
@@ -495,7 +512,7 @@
         line-height: 180%;
     }
 
-    .right-background{
+    .right-background {
         background-color: #805725;
         position: absolute;
         width: 48.625rem;
@@ -506,4 +523,28 @@
     }
 
 
+}
+
+.sec06-special-offers {
+
+    .sec06-text-section {
+        h2 {
+            font-family: var(--body-font-family);
+            font-size: 50rem;
+        }
+    }
+
+    .right-click {
+        justify-content: flex-end;
+    }
+
+    .mid-background {
+        background-color: #805725;
+        position: absolute;
+        width: 148.625rem;
+        height: 52.1875rem;
+        bottom: 100%;
+        right: -20%;
+        z-index: -99;
+    }
 }
