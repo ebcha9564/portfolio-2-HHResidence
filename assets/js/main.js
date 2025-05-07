@@ -21,3 +21,18 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  let count = 0;
+  let btnMinus = document.querySelectorAll(".minus");
+  let btnPlus = document.querySelectorAll(".plus");
+  let displayNum = document.querySelectorAll(".display");
+
+  btnPlus.addEventListener("click", function(){
+    count++;
+    displayNum.innerHTML = count;
+  })
+
+  btnMinus.addEventListener("click", function(){
+    count--;
+    displayNum.innerHTML = count;
+  })

@@ -1,6 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url("//fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
-
 .nanum-myeongjo-regular {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
@@ -54,8 +53,16 @@
   padding-left: 3.75rem;
 }
 
+.p-r-60 {
+  padding-right: 3.75rem;
+}
+
 .p-t-10 {
   padding-top: 0.65rem;
+}
+
+.p-t-16 {
+  padding-top: 1rem;
 }
 
 .p-t-25 {
@@ -66,16 +73,28 @@
   padding-top: 1.875rem;
 }
 
+.p-b-100 {
+  padding-bottom: 6.25rem;
+}
+
 .p-t-40 {
   padding-top: 2.5rem;
 }
 
-.p-l-20 {
-  padding-left: 20px;
+.m-r-20 {
+  margin-right: 20px;
+}
+
+.p-l-40 {
+  padding-left: 3rem;
 }
 
 .p-l-64 {
   padding-left: 4rem;
+}
+
+.p-t-80 {
+  padding-top: 5rem;
 }
 
 .p-t-100 {
@@ -90,8 +109,14 @@
   padding-bottom: 8rem;
 }
 
-/*# sourceMappingURL=common.css.map */
-
-.p-t-200 {
-  padding-top: 12.5rem;
+.p-b-300 {
+  padding-bottom: 18.75rem;
 }
+
+.p-b-80 {
+  padding-bottom: 5rem;
+}
+
+.p-t-250 {
+  padding-top: 15.625rem;
+}/*# sourceMappingURL=common.css.map */
